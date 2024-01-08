@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #333;
+}
+
+.box24{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #09da37;
+    z-index: 1;
+    clip-path: circle(13vw at var(--x) var(--y));
+}
+
+.box24 h2{
+    position: relative;
+    color: transparent;
+    -webkit-text-stroke: 4px #333;
+    font-size: 25vw;
+    pointer-events: none;
+    font-weight: bold;
+}
+
+.box23{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box23 h2{
+    position: relative;
+    color: transparent;
+    pointer-events: none;
+    font-size: 25vw;
+    -webkit-text-stroke: 4px #09da37;
+    font-weight: bold;
+}
